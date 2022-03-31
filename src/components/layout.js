@@ -25,21 +25,21 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <React.Fragment>
       <div
         style={{
           maxWidth: 960,
         }}
       >
         <Menu />
-
+				{console.log(data)}
         <div className="site">
           {/* <main>{children}</main> */}
           <div className="site-content">{children}</div>
           <Footer />
         </div>
       </div>
-    </>
+    </React.Fragment>
   )
 }
 

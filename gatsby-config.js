@@ -38,20 +38,20 @@ module.exports = {
         display: 'swap',
       },
     },
-    {
-      resolve: `gatsby-source-google-calendar`,
-      options: {
-        // this calendarID is for Elijah Samuels. Needs to update to Dru Heller. Delete this comment once the change has been made.
-        calendarIds: [
-        'https://calendar.google.com/calendar/embed?src=okdq5ar7qo7tauol6miki94rhs%40group.calendar.google.com',
-        ],
-        // options to retrieve the next 10 upcoming events
-        timeMin: (new Date()).toISOString(),
-        maxResults: 10,
-        singleEvents: true,
-        orderBy: 'startTime',
-      }
-      },
+    // {
+    //   resolve: `gatsby-source-google-calendar`,
+    //   options: {
+    //     // this calendarID is for Elijah Samuels. Needs to update to Dru Heller. Delete this comment once the change has been made.
+    //     calendarIds: [
+    //     'https://calendar.google.com/calendar/embed?src=okdq5ar7qo7tauol6miki94rhs%40group.calendar.google.com',
+    //     ],
+    //     // options to retrieve the next 10 upcoming events
+    //     timeMin: (new Date()).toISOString(),
+    //     maxResults: 10,
+    //     singleEvents: true,
+    //     orderBy: 'startTime',
+    //   }
+    //   },
   
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
