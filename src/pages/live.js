@@ -14,7 +14,7 @@ const Live = () => (
             
         </div>
         <div>
-            This should be the Gatsby Calendar Plugin
+            {/* This should be the Gatsby Calendar Plugin */}
         </div>
     </Layout>
 )

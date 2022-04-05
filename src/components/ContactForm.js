@@ -35,6 +35,7 @@ const ContactForm = () => {
         <div>
           {/* <label htmlFor="name">Name:</label> */}
           <input
+						disabled
             className="input"
             id="name"
             type="text"
@@ -47,6 +48,7 @@ const ContactForm = () => {
         <div>
           {/* <label htmlFor="email">Email:</label> */}
           <input
+						disabled
             className="input"
             id="email"
             type="email"
@@ -59,6 +61,7 @@ const ContactForm = () => {
         <div>
           {/* <label htmlFor="message">Message:</label> */}
           <textarea
+						disabled
             className="input"
             id="message"
             name="message"
@@ -67,7 +70,7 @@ const ContactForm = () => {
           />
         </div>
 
-        <button className="input" type="submit">
+        <button className="input" type="submit" disabled>
           {status}
         </button>
       </form>
