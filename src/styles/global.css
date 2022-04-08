@@ -1,11 +1,21 @@
 .input {
-	border-radius: 5px;
-	margin: 5px;
+  border-radius: 5px;
+  margin: 5px;
   width: 50%;
   padding: 10px;
   border: 1px solid;
-
 }
 .social-icons {
-	size: 160px
+  size: 160px;
+}
+
+.album-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+
 }
