@@ -29,14 +29,14 @@ router.post("/contact", (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message; 
-	console.log(name, email, message)
+	// console.log(name, email, message)
   const mail = {
     from: name,
     to: "druhellermusic@gmail.com",
-    subject: "Contact Form Submission",
-    html: `<p>Name: ${name}</p>
-           <p>Email: ${email}</p>
-           <p>Message: ${message}</p>`,
+    subject: `Contact from ${name}`,
+    html: `<p><strong>Name:</strong> ${name}</p>
+           <p><strong>Email:</strong> ${email}</p>
+           <p><strong>Message:</strong> ${message}</p>`,
   };
 
   contactEmail.sendMail(mail, (error) => {

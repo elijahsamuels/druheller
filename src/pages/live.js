@@ -10,7 +10,7 @@ const Live = () => (
             <h1>Live</h1>
             <p>Gig Calendar Information</p>
             {/* This is a placeholder of a google calendar. We need a Google calendar from Dru. */}
-            <iframe title='google-calendar' src="https://calendar.google.com/calendar/embed?src=271q0upfs3pogocbdh24fvski99ajd6l%40import.calendar.google.com&ctz=America%2FDenver" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe title='google-calendar' src="https://calendar.google.com/calendar/embed?src=lpv9uleqd0r413a0ccc3tdaisc%40group.calendar.google.com&ctz=America%2FDenver" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             
         </div>
         <div>
