@@ -1,6 +1,6 @@
 import React from "react"
+// import Calendar from "@ericz1803/react-google-calendar" // TURN THIS ON!
 // import "./styles.css";
-import Calendar from "@ericz1803/react-google-calendar"
 // import { css } from "@emotion/react"
 
 const API_KEY = process.env.GATSBY_API_KEY

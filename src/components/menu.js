@@ -1,6 +1,5 @@
-import React, { useEffect } from "react"
+import React, { useLayoutEffect } from "react"
 import Link from "gatsby-link"
-
 
 const Menu = () => {
 
@@ -12,9 +11,9 @@ const Menu = () => {
 		}
 	}
 
-	useEffect(() => {
-		onMenuChange()
-	}, [])
+  useLayoutEffect(() => {
+    onMenuChange()
+  }, [])
 
   return (
     <div
