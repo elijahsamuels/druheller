@@ -1,6 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+function onMenuChange(title) {
+	if (document.URL.includes(title.toLowerCase())) {
+		return <p style={{ color: 'white' }}>{title}</p>
+	} else {
+		return title
+	}
+
+}
+
 const Menu = () => (
     <div className="menu" style={{
         paddingTop: '20px'
@@ -13,15 +22,15 @@ const Menu = () => (
 
             {/* if url is current location, make link text white */}
 
-            <li><Link to='/about'>About</Link></li> 
-            <li><Link to='/live'>Live</Link></li> 
-            <li><Link to='/lessons'>Lessons</Link></li> 
+            <li><Link to='/about'>{onMenuChange("About")}</Link></li> 
+            <li><Link to='/live'>{onMenuChange("Live")}</Link></li> 
+            <li><Link to='/lessons'>{onMenuChange("Lessons")}</Link></li> 
 
-            <li><h3><Link to='/'>Dru Heller</Link></h3></li>
+            <li><h3><Link to='/'>{onMenuChange("Dru Heller")}</Link></h3></li>
             
-            <li><Link to='/audio'>Audio</Link></li> 
-            <li><Link to='/video'>Video</Link></li> 
-            <li><Link to='/contact'>Contact</Link></li> 
+            <li><Link to='/audio'>{onMenuChange("Audio")}</Link></li> 
+            <li><Link to='/video'>{onMenuChange("Video")}</Link></li> 
+            <li><Link to='/contact'>{onMenuChange("Contact")}</Link></li> 
         </ul>        
     </div>
 )
