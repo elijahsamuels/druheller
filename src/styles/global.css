@@ -19,3 +19,12 @@
   /* width: 50%; */
 
 }
+.calendar-navigate {
+  size: 16px;
+	transition-delay: 200ms;
+
+}
+
+.calendar-navigate:hover {
+	transition-delay: 200ms;
+}

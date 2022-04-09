@@ -38,6 +38,7 @@ module.exports = {
         display: 'swap',
       },
     },
+		
     // {
     //   resolve: `gatsby-source-google-calendar`,
     //   options: {
