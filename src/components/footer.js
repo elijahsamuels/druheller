@@ -24,8 +24,8 @@ const Footer = () => (
 			<div align="center">
 
 
-				<a href='https://www.facebook.com/dru.heller' className="social-icons"><text hidden="true">Facebook</text><FaFacebookSquare /></a>
-				<a href='https://www.youtube.com/results?search_query=dru+heller' className="social-icons"><text hidden="true">YouTube</text><FaYoutube /></a>
+				<a href='https://www.facebook.com/dru.heller' className="social-icons"><p hidden={true}>Facebook</p><FaFacebookSquare /></a>
+				<a href='https://www.youtube.com/results?search_query=dru+heller' className="social-icons"><p hidden={true}>YouTube</p><FaYoutube /></a>
 
 
 
