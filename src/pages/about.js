@@ -45,8 +45,7 @@ const About = () => (
         <p>
           On and off the bandstand, Dru is an active listener. His vibrant
           spirit can be felt and heard through the flick of his sticks or the
-          wit and charm of his conversations. For more information, go to
-          druhellermusic.com.
+          wit and charm of his conversations.
         </p>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout.jsx';
 import SEO from '../components/seo.js';
 import ContactForm from '../components/ContactForm.js';
+// import ContactForm2 from '../components/ContactForm2.js';
 
 const Contact = () => (
     <Layout>
@@ -13,7 +14,9 @@ const Contact = () => (
 						</h5>
             {/* <a href="mailto:druheller@gmail.com">druheller@gmail.com</a> */}
         </div>
+
 				< ContactForm />
+				{/* < ContactForm2 /> */}
     </Layout>
 )
 

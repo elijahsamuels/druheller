@@ -5,8 +5,20 @@
   padding: 10px;
   border: 1px solid;
 }
+
 .social-icons {
   size: 160px;
+	transition: 250ms ease-in-out;
+	height: 2em;
+	width: 2em;
+}
+
+.social-icons:hover {
+  size: 160px;
+	color: white;
+	height: 2.2em;
+	width: 2.2em;
+
 }
 
 .album-img {
@@ -16,9 +28,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
-
 }
+
 .calendar-navigate {
   size: 16px;
 	transition-delay: 200ms;
@@ -28,3 +39,15 @@
 .calendar-navigate:hover {
 	transition-delay: 200ms;
 }
+
+.menu-link {
+	color: black;
+	transition: 250ms ease-in-out;
+
+}
+
+.menu-link:hover {
+	color: white;
+	
+}
+

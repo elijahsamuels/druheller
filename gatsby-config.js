@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Dru Heller Music`,
     description: `Official website for drummer, musician, composer, and bandleader Dru Heller.`,
-    author: `shibadeveloper`,
+    author: `shiba and samuels dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

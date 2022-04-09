@@ -553,6 +553,7 @@ acronym {
 #banner img {
   width: 18rem;
   padding: 0px 5px;
+	border-radius: 10px;
 }
 
 #bannerName {
