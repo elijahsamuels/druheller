@@ -1,5 +1,5 @@
 import React from "react"
-// import Calendar from "@ericz1803/react-google-calendar" // TURN THIS ON!
+import Calendar from "@ericz1803/react-google-calendar" // TURN THIS ON!
 // import "./styles.css";
 // import { css } from "@emotion/react"
 
@@ -9,7 +9,6 @@ const CALENDAR_ID = process.env.GATSBY_CALENDAR_ID
 //replace calendar id with one you want to test
 let calendars = [
   { calendarId: CALENDAR_ID },
-  // { calendarId: `${CALENDAR_ID}` }
 ]
 
 let styles = {

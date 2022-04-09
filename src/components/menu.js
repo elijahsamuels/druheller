@@ -1,19 +1,26 @@
-import React, { useLayoutEffect } from "react"
+import React, { useEffect } from "react"
 import Link from "gatsby-link"
+
+
 
 const Menu = () => {
 
 	function onMenuChange(title) {
-		if (document.URL.includes(title?.toLowerCase())) {
-			return <p style={{ color: "white" }}>{title}</p>
+		
+		if (typeof document !== "undefined" || undefined) {
+			if (document.URL.includes(title?.toLowerCase())) {
+				return <p style={{ color: "white" }}>{title}</p>
+			} else {
+				return title
+			}
 		} else {
-			return title
+				return title
+			}
 		}
-	}
-
-  useLayoutEffect(() => {
-    onMenuChange()
-  }, [])
+	
+  // useEffect(() => {
+  //   onMenuChange()
+  // }, [])
 
   return (
     <div
