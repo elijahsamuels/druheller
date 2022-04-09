@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout.js"
+import Layout from "../components/layout.jsx"
 import SEO from "../components/seo.js"
 import YoutubeEmbed from "../components/youtubeEmbed"
 
