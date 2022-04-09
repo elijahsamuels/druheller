@@ -1,7 +1,5 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Link from "gatsby-link"
-
-
 
 const Menu = () => {
 
@@ -17,17 +15,11 @@ const Menu = () => {
 				return title
 			}
 		}
-	
-  // useEffect(() => {
-  //   onMenuChange()
-  // }, [])
 
   return (
     <div
       className="menu"
-      style={{
-        paddingTop: "20px",
-      }}
+      style={{ paddingTop: "20px" }}
       id="menu"
     >
       <ul
@@ -40,29 +32,30 @@ const Menu = () => {
         {/* if url is current location, make link text white */}
 
         <li>
-          <Link to="/about">{onMenuChange("About")}</Link>
+          <Link to="/about" className="menu-link">{onMenuChange("About")}</Link>
+          {/* <Link to="/about">{onMenuChange("About")}</Link> */}
         </li>
         <li>
-          <Link to="/live">{onMenuChange("Live")}</Link>
+          <Link to="/live" className="menu-link" >{onMenuChange("Live")}</Link>
         </li>
         <li>
-          <Link to="/lessons">{onMenuChange("Lessons")}</Link>
+          <Link to="/lessons" className="menu-link" >{onMenuChange("Lessons")}</Link>
         </li>
 
         <li>
           <h3>
-            <Link to="/">{onMenuChange("Dru Heller")}</Link>
+            <Link to="/" className="menu-link" >{onMenuChange("Dru Heller")}</Link>
           </h3>
         </li>
 
         <li>
-          <Link to="/audio">{onMenuChange("Audio")}</Link>
+          <Link to="/audio" className="menu-link" >{onMenuChange("Audio")}</Link>
         </li>
         <li>
-          <Link to="/video">{onMenuChange("Video")}</Link>
+          <Link to="/video" className="menu-link" >{onMenuChange("Video")}</Link>
         </li>
         <li>
-          <Link to="/contact">{onMenuChange("Contact")}</Link>
+          <Link to="/contact" className="menu-link" >{onMenuChange("Contact")}</Link>
         </li>
       </ul>
     </div>
