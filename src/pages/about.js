@@ -7,7 +7,8 @@ const About = () => (
   <Layout>
     <SEO title="dru heller bio page" />
     <h1>Biography</h1>
-    <div className="row">
+    
+		<div className="row">
       <div className="column">
         <img src={hellerbw} alt="heller biophoto" id="biophoto" />
       </div>
@@ -49,7 +50,6 @@ const About = () => (
         </p>
       </div>
     </div>
-    <div></div>
   </Layout>
 )
 export default About

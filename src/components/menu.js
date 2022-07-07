@@ -23,6 +23,8 @@ const Menu = () => {
       id="menu"
     >
       <ul
+      className="menu"
+
         style={{
           listStyle: "none",
           display: "flex",

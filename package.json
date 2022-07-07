@@ -39,6 +39,7 @@
     "react-h5-audio-player": "^3.8.3",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
+    "sib-api-v3-sdk": "^8.3.0",
     "tls": "^0.0.1"
   },
   "devDependencies": {
@@ -63,5 +64,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-	}
+  }
 }

@@ -18,7 +18,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #78a1bb	;
+  background-color: #78a1bb;
   }
 article,
 aside,
@@ -34,6 +34,14 @@ section,
 summary {
   display: block;
 }
+
+menu {
+  /* background-color: #78a1bb; */
+	background: linear-gradient(190deg, rgba(120,161,187,1) 35%, rgba(255,255,255,0) 100%);
+
+}
+
+
 audio,
 canvas,
 progress,
@@ -666,8 +674,8 @@ pre tt:after {
   flex-grow: 1;
 }
 
-.menu {
-  background-color: #78a1bb;
+.menu {	
+	background: linear-gradient(190deg, rgba(120,161,187,1) 35%, rgba(255,255,255,0) 100%);
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -680,3 +688,7 @@ pre tt:after {
 .mobile-nav {
 }
 
+
+iframe {
+	border-radius: 10px;
+}
